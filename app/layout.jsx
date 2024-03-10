@@ -1,6 +1,6 @@
-import '@styles/globals.css'
-
-import Nav from '@components/Nav'
+import Header from "@components/Header"
+import Footer from "@components/Footer"
+import '@styles/style.css'
 
 export const metadata = {
   title: 'Test',
@@ -9,15 +9,12 @@ export const metadata = {
 
 const RootLayout = ({ children }) => {
   return (
-    <html Lang='eng'>
+    <html lang='eng'>
       <body>
-          <div className='main'>
-            <div className='gradient' />
-          </div>
-
-          <main className='app'>
-            <Nav />
+          <main>
+            <Header />
             {children}
+            <Footer />
           </main>
       </body>
     </html>

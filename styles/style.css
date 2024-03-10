@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(221, 217, 217);
+}
+h2 {
+    margin: 0;
+}
+/*************** header *****************/
+.header{
+    color: black;
+    text-align: center;
+    background-color: white !important;
+    height: 220px;
+    font-size: 40px;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.btnITem {
+    font-size: 20px;
+    text-align: center;
+}
+.btnLink {
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none; 
+}
+.btnLink:hover {
+    color: rgb(77, 73, 100);
+    border: 1px solid rgb(77, 73, 100);
+}
+/********************* footer**********************/
+.footer{
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(162, 169, 175) !important;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/******************home******************/
+.home {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sidebar-right{
+    width: 25%;
+    margin-top:15px;
+    border: 1px solid silver;
+    height: 300px;
+    background-color: white !important;
+    
+}
+.ad-box{
+    background-color: white;
+    padding:20px;
+}
+.ad-box .title{
+    margin-bottom: 10px;
+}
+.ad-box .fake-img{
+    background-color: darkgrey;
+    padding:30px;
+    margin-bottom: 10px;
+}
+.sidebar-left{
+    width: 75%;
+    margin-top: 15px;
+}
+.box-l{
+    background-color: white;
+    padding:20px;
+    margin-right:15px;
+    margin-bottom: 20px;
+    
+}
+.box-l .title{
+    margin-bottom: 15px;
+}
+.box-l .date{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.box-l .fake-img{
+    background-color: darkgrey;
+    padding: 70px;
+    margin-bottom: 15px;
+}
+/*************speaker **************/
+.userSpeakTitle {
+    text-align: center;
+}
+.userCard {
+    display: flex;
+    height: 180px;
+    margin: 0 0 25px 0;
+}
+.userProfile {
+    position: relative;
+    width: 15%;
+    background-color: darkgray;
+    border-radius: 50%;
+    text-align: center;
+}
+.userProfile span {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.des {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    padding: 20px;
+}
+/**********err**************/
+.erBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 400px;
+    background-color: rgb(77, 73, 100);
+    color: rgb(252, 252, 252);
+}
+/*******************tabel***********************/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+  } 
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  } 
+  tr:nth-child(even) {
+    background-color: white;
+  }
+/**************about*********************/
+.box {
+    background-color: #dddddd;
+    margin: 20px;
+}
+.a-title {
+    background-color: white;
+    text-align: center;
+    border: 1px solid silver;
+    border-bottom: none;
+    margin-bottom: none;
+    padding: 15px;
+}
+.text {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid silver;
+}
+
+
